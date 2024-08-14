@@ -9,7 +9,7 @@ import InstagramLight from "../../../src/assets/instagram-dark.svg";
 import twitterDark from "../../../src/assets/twitter-dark.svg";
 import LinkedinDark from "../../../src/assets/linkedin-dark.svg";
 import InstagramDark from "../../../src/assets/instagram-light.svg";
-import CV from "../../../../Portfolio/src/assets/cv.pdf";
+import cv from "../../../../Portfolio/src/assets/cv.pdf";
 
 import { useTheme } from "../../common/ThemeContext";
 
@@ -55,7 +55,7 @@ function Hero() {
         <p className={styles.description}>
           With a passion for developing software apps for commercial businesses.
         </p>
-        <a href={CV} download>
+        <a href={cv} download>
           <button className="hover">Resume</button>
         </a>
       </div>
